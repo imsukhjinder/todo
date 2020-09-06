@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
-import Counters from './components/counters';
+// import Counters from './components/counters';
+import Vidly from './vidly/components/index';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counters />
+    <Vidly />
   </React.StrictMode>,
   document.getElementById('root')
 );
